@@ -1,0 +1,66 @@
+.contact {
+  display: flex;
+  background-color: #fef7e5;
+}
+
+.contact p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1.2rem;
+}
+
+.contact__text {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact__text .place {
+  text-align: center;
+  width: 100%;
+  max-width: 15rem;
+}
+
+.contact__text .place h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact__text .place p {
+  margin-bottom: 1rem;
+}
+
+.contact__text .hours {
+  text-align: center;
+}
+.contact__text .hours h3 {
+  color: rgb(238, 165, 29);
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact__text .hours .monsat {
+  margin-bottom: 2rem;
+}
+.contact__text .hours .sunday {
+  margin-bottom: 2rem;
+}
+
+.contact__text .phone {
+  text-align: center;
+}
+.contact__text .phone h3 {
+  color: rgb(238, 165, 29);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact .contact__img {
+  flex-basis: 50%;
+  background: url(../../assets/img/s-min.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}

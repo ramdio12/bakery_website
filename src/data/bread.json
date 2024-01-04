@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Glassic Baguette",
+    "description": "Unbleached organic wheat flour, whole rye flour, water, sea salt, yeast",
+    "img": "../img/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "BAGUETTE",
+    "description": "Naturally leavened baguette made using the Five Points Levain dough. This baguette is crustier and chewier than the Classic Baguette",
+    "img": "../img/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "CARDAMON BUN",
+    "description": "A classic knotted Swedish sweet bun with freshly ground cardamom",
+    "img": "../img/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "EVERDAY FRENCH",
+    "description": "Everyday table loaf made using the Classic Baguette dough",
+    "img": "../img/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "MULTIGRAIN",
+    "description": "Naturally leavened bread made using the French Country dough with the additions of millet, quinoa, rolled oats, flax seeds, and sunflower seeds",
+    "img": "../img/5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "DANISH RYE",
+    "description": "Whole rye flour, cracked rye berries, water, natural leaven culture made with rye flour, pumpkin seeds, sunflower seeds, barley malt syrup, sea salt",
+    "img": "../img/6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "FARMING BREAD",
+    "description": "Unbleached organic wheat flour, whole rye flour, water, natural leaven culture, sea salt",
+    "img": "../img/7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "CIABATTA",
+    "description": "Unbleached organic wheat flour, whole rye flour, water, natural leaven culture, sea salt, yeast",
+    "img": "../img/8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "HANDMADE BREAD",
+    "description": "Naturally leavened bread made using the Sourdough Rye dough and studded with dried black currants",
+    "img": "../img/9.jpg"
+  }
+]

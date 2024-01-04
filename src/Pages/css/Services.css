@@ -1,0 +1,73 @@
+.services {
+  background-color: var(--ORANGE);
+  min-height: 100vh;
+  padding-bottom: 5rem;
+}
+
+.services .services__bg {
+  min-height: 462px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../../assets/img/fgfg-min.jpg);
+  background-position: 50% 50%;
+  height: auto;
+  margin: 0 auto 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: visible;
+}
+
+.services__bg h2 {
+  font-size: 4rem;
+  text-align: center;
+  color: #fff;
+  padding-top: 5rem;
+}
+
+.container {
+  width: 100%;
+
+  margin-top: -12rem;
+}
+
+.services__group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.message {
+  margin: 12rem auto 0;
+  display: flex;
+  width: 100%;
+  max-width: 45rem;
+}
+
+.message img {
+  margin-right: 4rem;
+  height: 5rem;
+}
+
+.message div p {
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.baker-profile {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+.baker-profile img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.baker-profile h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+}

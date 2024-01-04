@@ -1,0 +1,20 @@
+.bread {
+  background-color: black;
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+
+.bread h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 4rem;
+}
+
+.bread__group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 4rem;
+}

@@ -1,0 +1,47 @@
+.servicescard {
+  background-color: #fff;
+  width: 16rem;
+  padding: 3rem 2rem 2.5rem;
+  border-radius: 1rem;
+}
+
+.servicescard__img {
+  background-color: var(--ORANGE);
+  max-width: 6rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 50%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.servicescard__img img {
+  margin: 0 auto;
+  width: 4rem;
+  height: 4rem;
+}
+
+.servicescard__text {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.servicescard__text h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.servicescard__text p {
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.5;
+}
+
+.servicescard__text a {
+  color: var(--ORANGE);
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}

@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  background-color: #fff;
+  padding: 1rem 4rem;
+}
+
+.toggleBtn {
+  position: absolute;
+  top: 1.75rem;
+  right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.toggleBtn .bar {
+  height: 4px;
+  width: 100%;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.toggleBtn:hover .bar {
+  background-color: red;
+}

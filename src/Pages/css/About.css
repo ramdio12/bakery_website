@@ -1,0 +1,60 @@
+.about {
+  background-color: var(--DARK);
+  padding-bottom: 6rem;
+}
+
+.about .about__bg {
+  height: 342px;
+  background-color: var(--ORANGE);
+  z-index: 0;
+}
+
+.about .about__img {
+  width: 100%;
+  text-align: center;
+  margin-top: -16rem;
+}
+
+.about .about__img img {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  border: 0.5rem solid white;
+  z-index: 100;
+}
+
+.about .about__text {
+  text-align: center;
+  color: #fff;
+  margin-top: 3rem;
+}
+
+.about .about__text h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.about .about__text p {
+  font-size: 1.4rem;
+  max-width: 45rem;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+
+.about__text button {
+  background-color: var(--ORANGE);
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 4rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.about__text button:hover {
+  color: var(--DARK);
+  background-color: #fff;
+}

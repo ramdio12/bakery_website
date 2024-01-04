@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Breads",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt",
+    "img": "../../img/services_1.png"
+  },
+  {
+    "id": 2,
+    "name": "Pastries",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt",
+    "img": "../../img/services_2.png"
+  },
+  {
+    "id": 3,
+    "name": "Cakes",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt",
+    "img": "../../img/services_3.png"
+  },
+  {
+    "id": 4,
+    "name": "Pizza",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt",
+    "img": "../../img/services_4.png"
+  }
+]
