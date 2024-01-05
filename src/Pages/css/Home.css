@@ -6,14 +6,15 @@
 }
 
 .home__bg {
-  flex-basis: 50%;
+  flex-basis: 60%;
   padding: 30px;
   background: url(../../assets/img/home.jpg);
-  background-position: 100%;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;
   padding: 10rem;
+  overflow: visible;
 }
 
 .home__intro {
@@ -22,6 +23,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0 0 0 3rem;
+  overflow: auto;
 }
 
 .home__intro h1 {
@@ -63,5 +66,12 @@
 @media screen and (max-width: 768px) {
   .home {
     flex-direction: column;
+  }
+  .home__intro {
+    padding: 1rem 0 2rem 3rem;
+  }
+
+  .home__intro h1 {
+    font-size: 2.2rem;
   }
 }

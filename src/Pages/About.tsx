@@ -31,7 +31,7 @@ const About: React.FC = () => {
           Hello!
         </motion.h2>
         <motion.p
-          initial={{ opacity: 0, translateX: -400, scale: 0 }}
+          initial={{ opacity: 0, translateX: -200, scale: 0 }}
           whileInView={{ opacity: 1, translateX: 0, scale: 1 }}
           transition={{ duration: 1 }}
           viewport={{ once: true }}>

@@ -71,3 +71,20 @@
   font-weight: 900;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .message {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .message .qoute {
+    width: 5rem;
+    margin-bottom: 4rem;
+  }
+  .message p {
+    text-align: center;
+    width: 30rem;
+  }
+}

@@ -7,7 +7,7 @@ const Intro: React.FC = () => {
     <section className="intro" id="intro">
       <div className="intro_container">
         <motion.h2
-          initial={{ opacity: 0, translateX: -400, scale: 0 }}
+          initial={{ opacity: 0, translateX: -200, scale: 0 }}
           whileInView={{ opacity: 1, translateX: 0, scale: 1 }}
           transition={{ duration: 1 }}
           viewport={{ once: true }}>
@@ -15,7 +15,7 @@ const Intro: React.FC = () => {
         </motion.h2>
 
         <motion.p
-          initial={{ opacity: 0, translateX: 400, scale: 0 }}
+          initial={{ opacity: 0, translateX: 200, scale: 0 }}
           whileInView={{ opacity: 1, translateX: 0, scale: 1 }}
           transition={{ duration: 1 }}
           viewport={{ once: true }}>

@@ -58,3 +58,10 @@
   color: var(--DARK);
   background-color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .about .about__img img {
+    height: 360px;
+    width: 360px;
+  }
+}

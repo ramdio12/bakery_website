@@ -32,6 +32,7 @@ const Services: React.FC = () => {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
           src={qoute}
+          className="qoute"
           alt="qoute"
         />
         <motion.div

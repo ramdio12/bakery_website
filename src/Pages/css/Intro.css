@@ -17,6 +17,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
+  overflow: hidden;
 }
 
 .intro_container h2 {
@@ -34,11 +35,12 @@
 
 .intro_container .btn-group {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
 .btn-group button {
-  padding: 1rem 2.5rem;
+  padding: 1rem 3rem;
   font-weight: 900;
   border-radius: 2rem;
   border: none;
@@ -61,4 +63,21 @@
 .btn-group button:nth-child(2):hover {
   background-color: white;
   color: var(--DARK);
+}
+
+@media screen and (max-width: 768px) {
+  .intro_container h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    width: 25rem;
+    text-align: center;
+  }
+
+  .intro_container p {
+    width: 25rem;
+  }
+
+  .btn-group {
+    flex-direction: column;
+  }
 }
